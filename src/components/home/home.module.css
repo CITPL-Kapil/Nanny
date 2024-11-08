@@ -1,0 +1,54 @@
+.imgBox {
+    height: 100%; 
+    position: relative; 
+    display: flex; 
+    align-items: center; 
+}
+
+.imgLogo {
+    width: auto; 
+    height: 90%;
+    position: absolute;
+    box-sizing: border-box;
+}
+
+.heroBg {
+    height: 610px;
+    background-image: url('../../../public/header.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.partnerBg {
+   
+    background-image: url('../../../public/partner_bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.inputF { 
+     padding: 0.3rem 0.75rem;
+     font-size:1rem;
+     border-radius: 5px;
+     transition: box-shadow 0.3s ease; 
+     box-shadow: 0 0 0 0 rgba(30,144,255, 0.0)
+    }
+
+.customBtn { 
+     border-radius: 12px;
+     padding: 3px 25px; 
+    }
+
+.crousalBtn {
+    position: 'absolute';
+    top: 50%;
+    padding:7px;
+    z-index: 1;
+    transform: translateY(-50%)
+}
+
+.footerBg {
+   
+    background-image: url('../../../public/footer_bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
